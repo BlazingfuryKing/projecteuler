@@ -20,4 +20,4 @@ while a<n:
         b=a+b
 print()
 print(b)
-#ans: 4613732
+#Ans: 4613732
