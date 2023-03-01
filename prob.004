@@ -4,8 +4,6 @@ from the product of two 2-digit numbers is 9009 = 91 × 99.
 
 Find the largest palindrome made from the product of two 3-digit numbers.
 '''
-
-
 x = 999
 y = 999
 n = 0
@@ -24,3 +22,5 @@ for i in range(999,100,-1):
 
 print("largest palindrome:",lp)
 print(i1,j1)
+
+#Ans:906609
