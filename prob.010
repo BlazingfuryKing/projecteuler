@@ -1,0 +1,25 @@
+'''
+The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+
+Find the sum of all the primes below two million.
+
+'''
+p = [2,3]
+is_p=True
+l = 2000000
+for n in range (5,l+1,2):
+    for a in range(len(p)):
+        print(n)
+        if n%p[a]==0:
+            is_p = False #Flag, acts as a indicator to identify if the number is prime.
+            break
+    if is_p==True:
+        p.append(n)
+    else:
+        is_p=True
+
+p = list(dict.fromkeys(p))
+print(p)
+print(sum(p))
+
+#Ans: 142913828922
